@@ -1,0 +1,26 @@
+package Model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CategoryModel")
+public class CategoryModel 
+{
+	private static final long serialVersionUID = 1L;
+	@Id
+	@Column(name="categoryid")
+	private int categoryid;
+	@Column(name="categoryname")
+	private String categoryname;
+	@OneToMany(targetEntity=PoductModel.class,mappedBy="categoryid",casscade=CasecadeType.ALL,fetch=FetchType.EAGER)
+	@Column(name="setofproducts")
+	private Set<ProductModel> setofproducts;
+	public 
+	
+	
+
+}

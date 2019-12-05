@@ -1,0 +1,22 @@
+package com.niit.Ecommerce_Bd_ILT;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@ComponentScan({"com.niit.Ecommerce_Bd_ILT"})
+@EnableTransactionManagement
+public class AppConfig
+{
+	@Autowired
+	@Bean(name = "dataSource")
+	
+	
+	
+	
+	
+}
+

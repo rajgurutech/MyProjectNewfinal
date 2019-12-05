@@ -1,0 +1,19 @@
+package com.niit.Ecommerce_Bd_ILT.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CategoryDAOImpl 
+{
+	@Autowired
+	private SessionFactory sessionFactory;
+	public void setSessionFactory(SessionFactory sf)
+	{
+		this.sessionFactory = sf;
+		
+	}
+	
+	
+
+}

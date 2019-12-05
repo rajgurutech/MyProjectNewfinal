@@ -1,0 +1,9 @@
+package DAO;
+
+public interface CategoryDAO 
+{
+	public boolean addCategory(CategoryModel category1);
+	//Get All
+	public CategoryModel findById(int id);
+	
+}
