@@ -60,20 +60,15 @@
 								<input type="text" placeholder="Enter City Code Here.." class="form-control" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required name="usercity">
 							</div>		
 						</div>
-							
-							
 						</div>						
 					<div class="form-group">
 						<label>PHONE NUMBER</label>
 						<input type="text" placeholder="Enter Phone Number Here.." class="form-control" pattern="^\{10}$" required name="userphone">
 					</div>		
-						
-					<div class="form-group">
+						<div class="form-group">
 						<label>GENDER</label>
 						<input type="text" placeholder="Enter Gender Here.."  class="form-control" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required name="usergen">
-						
-					</div>
-					
+						</div>
 					<center>
 					<input type="submit" class="btn btn-lg btn-info" value="REGISTER"></input>	</center>				
 					</div>

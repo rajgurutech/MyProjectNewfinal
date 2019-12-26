@@ -1,9 +1,0 @@
-package com.niit.Ecommerce_Bd_ILT.Model;
-
-public interface CategoryDAO 
-{
-	public boolean addCategory(CategoryModel category1);
-	//Get All
-	public CategoryModel findById(int id);
-	
-}

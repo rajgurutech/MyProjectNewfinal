@@ -1,14 +1,18 @@
 package com.niit.Ecommerce_Bd_ILT.Model;
 
+import java.io.Serializable;
+import java.util.Set;
+import javax.persistence.OneToMany;
+import javax.persistence.CascadeType;
+import javax.persistence.FetchType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="CategoryModel")
-public class CategoryModel 
+public class CategoryModel implements Serializable 
 {
 	private static final long serialVersionUID = 1L;
 	@Id
@@ -16,6 +20,9 @@ public class CategoryModel
 	private int categoryid;
 	@Column(name="categoryname")
 	private String categoryname;
+	@OneToMany(targetEntity=ProductModel.class, mappedBy="categoryid", cascade=CascadeType.ALL, fetch=FetchType.EAGER)
+	@Column(name="setofproducts")
+    private Set<ProductModel> setofproducts;
 	
 	public int getCategoryid()
 	{

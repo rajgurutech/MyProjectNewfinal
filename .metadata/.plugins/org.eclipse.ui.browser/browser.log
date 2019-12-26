@@ -16,3 +16,33 @@ Dec 05, 2019 10:45:45.98 NEW SESSION
 Dec 05, 2019 10:45:45.98 [4616:3952:1205/104545:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
 Dec 05, 2019 10:45:52.92 [4616:3952:1205/104552:ERROR:textfield.h(175)] NOT IMPLEMENTED
 Dec 05, 2019 10:46:13.37 [4616:3952:1205/104613:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid: 'CRX_VERSION_NUMBER_INVALID'.
+
+Dec 11, 2019 12:21:04.71 NEW SESSION
+Dec 11, 2019 12:21:04.71 [7456:5240:1211/122104:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+Dec 11, 2019 12:21:11.68 [7456:5240:1211/122111:ERROR:textfield.h(175)] NOT IMPLEMENTED
+Dec 11, 2019 12:21:14.95 [7456:5240:1211/122114:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid: 'CRX_VERSION_NUMBER_INVALID'.
+Dec 11, 2019 12:21:17.97 [7456:5240:1211/122117:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid. Details: 'Cannot load extension with file or directory name _. Filenames starting with "_" are reserved for use by the system.'.
+Dec 11, 2019 12:32:48.31 [7456:9068:1211/123248:ERROR:data_fetcher_impl_win.cc(111)] DataFetcherImplWin::Initialize failed!
+Dec 11, 2019 13:03:27.47 [7456:5240:1211/130327:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid: 'CRX_VERSION_NUMBER_INVALID'.
+Dec 11, 2019 13:03:31.88 [7456:5240:1211/130331:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid. Details: 'Cannot load extension with file or directory name _. Filenames starting with "_" are reserved for use by the system.'.
+
+Dec 16, 2019 11:48:05.82 NEW SESSION
+Dec 16, 2019 11:48:05.82 [6264:7660:1216/114805:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+Dec 16, 2019 11:48:12.50 [6264:7660:1216/114812:ERROR:textfield.h(175)] NOT IMPLEMENTED
+Dec 16, 2019 11:48:14.17 [6264:7660:1216/114814:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid: 'CRX_VERSION_NUMBER_INVALID'.
+Dec 16, 2019 11:48:28.32 [6264:7660:1216/114828:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid. Details: 'Cannot load extension with file or directory name _. Filenames starting with "_" are reserved for use by the system.'.
+
+Dec 16, 2019 11:52:52.58 NEW SESSION
+Dec 16, 2019 11:52:52.58 [1528:6744:1216/115252:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+
+Dec 26, 2019 11:06:42.68 NEW SESSION
+Dec 26, 2019 11:06:42.69 [7532:6720:1226/110642:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+Dec 26, 2019 11:06:49.70 [7532:6720:1226/110649:ERROR:textfield.h(175)] NOT IMPLEMENTED
+Dec 26, 2019 11:06:57.50 [7532:6720:1226/110657:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid: 'CRX_VERSION_NUMBER_INVALID'.
+Dec 26, 2019 11:07:01.92 [7532:6720:1226/110701:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid. Details: 'Cannot load extension with file or directory name _. Filenames starting with "_" are reserved for use by the system.'.
+
+Dec 26, 2019 11:25:11.95 NEW SESSION
+Dec 26, 2019 11:25:11.95 [9376:10396:1226/112511:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+Dec 26, 2019 11:25:18.82 [9376:10396:1226/112518:ERROR:textfield.h(175)] NOT IMPLEMENTED
+Dec 26, 2019 11:25:21.34 [9376:10396:1226/112521:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid: 'CRX_VERSION_NUMBER_INVALID'.
+Dec 26, 2019 11:25:28.91 [9376:10396:1226/112528:ERROR:extension_error_reporter.cc(56)] Extension error: Package is invalid. Details: 'Cannot load extension with file or directory name _. Filenames starting with "_" are reserved for use by the system.'.
