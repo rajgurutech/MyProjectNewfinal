@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="com.niit.Ecommerce_Bd_ILT.DAO.UserDAO"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
@@ -40,4 +39,5 @@
 <fullyQualifiedTypeName name="com.niit.Ecommerce_Bd_ILT.Model.CategoryModel"/>
 <fullyQualifiedTypeName name="com.niit.Ecommerce_Bd_ILT.Model.UserModel"/>
 <fullyQualifiedTypeName name="org.springframework.orm.hibernate3.HibernateTransactionManager"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
