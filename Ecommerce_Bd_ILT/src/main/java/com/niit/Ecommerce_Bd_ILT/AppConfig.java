@@ -16,54 +16,53 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.niit.Ecommerce_Bd_ILT.Model.CategoryModel;
 import com.niit.Ecommerce_Bd_ILT.Model.ProductModel;
-
+import com.niit.Ecommerce_Bd_ILT.Model.UserModel;
 @Configuration
 @ComponentScan({"com.niit.Ecommerce_Bd_ILT"})
 @EnableTransactionManagement
-public class AppConfig
-{
+public class AppConfig {
+	
 	@Autowired
-	@Bean(name = "dataSource")
-	public DataSource dataSource()
-	{
+	@Bean(name ="dataSource")
+	public DataSource dataSource() {
+
 		DriverManagerDataSource ds = new DriverManagerDataSource();
-		ds.setDriverClassName("org.h2.Driver");
+	        ds.setDriverClassName("org.h2.Driver");
 		ds.setUrl("jdbc:h2:tcp://localhost/~/Iltbatch");
 		ds.setUsername("sa");
-		ds.setPassword("");
+		ds.setPassword(""); 
 		return ds;
-		
-		}
-	private Properties getHibernateProperties()
-	{
-		Properties prop = new Properties();
-		prop.put("hibernate.show_sql","true");
-		prop.put("hibernate.dialect","org.hibernate.dialect.H2Dialect");
-		prop.put("hibernate.format_sql","true");
-		prop.put("hibernate.hbm2ddl.auto","update");
-		return prop;
-		
-		}
-	@Autowired
-	@Bean
-	public SessionFactory sessionFactory(DataSource dataSource)
-	{
-		LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(dataSource);
-		builder.addProperties(getHibernateProperties());
-		//builder.scanPackages("com.niit.OnlineWebBackEnd");
-		builder.addAnnotatedClass(CategoryModel.class);
-		builder.addAnnotatedClass(ProductModel.class);
-		return builder.buildSessionFactory();
-		
-		}
-	//Create a transaction manager
-	@Bean
-	@Autowired
-	public HibernateTransactionManager txManager(SessionFactory sessionFactory)
-	{
-		return new HibernateTransactionManager(sessionFactory);
-		
 	}
+	private Properties getHibernateProperties() 
+	{
+        Properties prop = new Properties();
+        prop.put("hibernate.show_sql", "true");
+        prop.put("hibernate.dialect","org.hibernate.dialect.H2Dialect");
+        prop.put("hibernate.format_sql", "true");
+        prop.put("hibernate.hbm2ddl.auto", "update");
+        return prop;
+   }
+	@Autowired
+	@Bean
+    public SessionFactory sessionFactory(DataSource dataSource) 
+	{
+            LocalSessionFactoryBuilder builder =new LocalSessionFactoryBuilder(dataSource);
+            builder.addProperties(getHibernateProperties());
+            //builder.scanPackages("com.niit.OnlineWebBackEnd");
+          builder.addAnnotatedClass(ProductModel.class);
+          builder.addAnnotatedClass(CategoryModel.class);
+          builder.addAnnotatedClass(UserModel.class);
+            return builder.buildSessionFactory();
+    }
+	
+	//Create a transaction manager
+		@Bean
+		@Autowired
+	        public HibernateTransactionManager txManager(SessionFactory sessionFactory) {
+	                return new HibernateTransactionManager(sessionFactory);
+	        }
+		
+	
+		
 	
 }
-

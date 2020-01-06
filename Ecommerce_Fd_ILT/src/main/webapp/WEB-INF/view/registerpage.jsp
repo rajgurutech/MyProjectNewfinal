@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -60,15 +62,20 @@
 								<input type="text" placeholder="Enter City Code Here.." class="form-control" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required name="usercity">
 							</div>		
 						</div>
+							
+							
 						</div>						
 					<div class="form-group">
 						<label>PHONE NUMBER</label>
-						<input type="text" placeholder="Enter Phone Number Here.." class="form-control" pattern="^\{10}$" required name="userphone">
+						<input type="text" placeholder="Enter Phone Number Here.." class="form-control" name="userphone">
 					</div>		
-						<div class="form-group">
+						
+					<div class="form-group">
 						<label>GENDER</label>
 						<input type="text" placeholder="Enter Gender Here.."  class="form-control" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required name="usergen">
-						</div>
+						
+					</div>
+					
 					<center>
 					<input type="submit" class="btn btn-lg btn-info" value="REGISTER"></input>	</center>				
 					</div>
@@ -76,7 +83,8 @@
 				</div>
 	</div>
 	 <!-- Footer of the webpages -->
-<jsp:include page="footer.jsp"></jsp:include>
-</div>
+
+ <jsp:include page="footer.jsp"></jsp:include>
+ </div>
 </body>
 </html>

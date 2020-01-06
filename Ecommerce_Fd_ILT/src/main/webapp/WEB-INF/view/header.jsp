@@ -62,6 +62,5 @@ $(document).ready(function(){
     </ul>
   </div>
 </nav>
-  
 </body>
 </html>

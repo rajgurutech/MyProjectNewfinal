@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Thu Dec 26 11:24:30 PST 2019
+#Mon Jan 06 11:35:27 PST 2020
 org.eclipse.jst.j2ee.server\:Ecommerce_Bd_ILT=WEB-INF/lib/Ecommerce_Bd_ILT-0.0.1-SNAPSHOT.jar
 org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\TMC\\.m2\\repository\\org\\springframework\\spring-web\\4.3.8.RELEASE\\spring-web-4.3.8.RELEASE.jar=WEB-INF/lib/spring-web-4.3.8.RELEASE.jar

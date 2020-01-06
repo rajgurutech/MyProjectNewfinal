@@ -20,7 +20,8 @@ public class CategoryDAOImpl implements CategoryDAO
 	
 	private SessionFactory sessionFactory;
 	
-	public void setSessionFactory(SessionFactory sf){
+	public void setSessionFactory(SessionFactory sf)
+	{
 		this.sessionFactory = sf;
 	}
 	

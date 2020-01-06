@@ -39,15 +39,22 @@ public class CategoryModel implements Serializable
 		return categoryname;
 		
 	}
+	public Set<ProductModel> getSetofproducts() {
+		return setofproducts;
+	}
+	public void setSetofproducts(Set<ProductModel> setofproducts) {
+		this.setofproducts = setofproducts;
+	}
 	public void setCategoryname(String categoryname)
 	{
 		this.categoryname = categoryname;
 	}
-	public CategoryModel(int categoryid,String categoryname)
+	public CategoryModel(int categoryid,String categoryname,Set<ProductModel> setofproducts)
 	{
 		super();
 		this.categoryid = categoryid;
 		this.categoryname = categoryname;
+		this.setofproducts = setofproducts;
 		
 	}
 	public CategoryModel()

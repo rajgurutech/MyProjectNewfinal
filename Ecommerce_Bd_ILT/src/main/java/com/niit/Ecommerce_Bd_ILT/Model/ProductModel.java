@@ -27,34 +27,44 @@ public class ProductModel implements Serializable
 	  @JoinColumn(name="categoryid")
 	  private CategoryModel  categoryid;
 	 
-	public CategoryModel getCategoryid() {
+	public CategoryModel getCategoryid() 
+	{
 		return categoryid;
 	}
-	public void setCategoryid(CategoryModel categoryid) {
+	public void setCategoryid(CategoryModel categoryid)
+	{
 		this.categoryid = categoryid;
 	}
-	public String getP_image() {
+	public String getP_image() 
+	{
 		return p_image;
 	}
-	public void setP_image(String p_image) {
+	public void setP_image(String p_image) 
+	{
 		this.p_image = p_image;
 	}
-	public int getProductid() {
+	public int getProductid() 
+	{
 		return productid;
 	}
-	public void setProductid(int productid) {
+	public void setProductid(int productid) 
+	{
 		this.productid = productid;
 	}
-	public String getProductname() {
+	public String getProductname() 
+	{
 		return productname;
 	}
-	public void setProductname(String productname) {
+	public void setProductname(String productname) 
+	{
 		this.productname = productname;
 	}
-	public int getProductprice() {
+	public int getProductprice() 
+	{
 		return productprice;
 	}
-	public void setProductprice(int productprice) {
+	public void setProductprice(int productprice) 
+	{
 		this.productprice = productprice;
 	}
 	
@@ -68,9 +78,10 @@ public class ProductModel implements Serializable
 		this.productprice = productprice;
 		this.categoryid = categoryid;
 	}
-	public ProductModel() {
+	public ProductModel() 
+	{
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 }
 
