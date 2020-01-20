@@ -1,0 +1,18 @@
+package com.niit.Ecommerce_Bd_ILT.DAO;
+
+public interface CartDAO 
+{
+	//save
+	public void save(CartModel cart);
+	//read
+	public CartModel getId(int id);
+	//update
+	public void upadte(CartModel cart);
+	//delete
+	public void delete(CartModel p);
+	//Get All
+	public List<CartModel> getAll();
+	public CartModel findById(int id);
+	public List<CartModel> check(int productid);
+	
+}

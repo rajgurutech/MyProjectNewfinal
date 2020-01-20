@@ -1,0 +1,5 @@
+package com.niit.Ecommerce_Bd_ILT.Impl;
+
+public class ShipDAOImpl {
+
+}

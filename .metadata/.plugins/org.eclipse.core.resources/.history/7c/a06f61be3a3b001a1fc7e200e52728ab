@@ -1,0 +1,12 @@
+package com.niit.Ecommerce_Bd_ILT.Impl;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+
+
+public class ShipDAOImpl 
+{
+	
+
+}

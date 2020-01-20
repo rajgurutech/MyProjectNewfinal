@@ -1,0 +1,21 @@
+package com.niit.Ecommerce_Bd_ILT.Impl;
+
+import java.util.List;
+
+import org.h2.engine.Session;
+import org.hibernate.Query;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.niit.Ecommerce_Bd_ILT.DAO.CartDAO;
+import com.niit.Ecommerce_Bd_ILT.Model.CartModel;
+
+@Repository
+
+public class CartDAOImpl implements CartDAO
+{
+	
+	}
+
+}

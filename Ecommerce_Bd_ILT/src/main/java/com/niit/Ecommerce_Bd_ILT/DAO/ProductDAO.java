@@ -9,5 +9,7 @@ public interface ProductDAO
 	public ProductModel findById(int id);
 	public List<ProductModel> getAll();
 	public List<ProductModel> getFilterProducts(int categoryid);
+	public void update(ProductModel product);
+	public void delete(ProductModel p);
 	
 }

@@ -15,7 +15,7 @@ public class CategoryList
 {
 	@Autowired
 	CategoryDAO categorys;
-	@RequestMapping(value="/categorylist")
+	@RequestMapping(value="/admin/categorylist")
 	public ModelAndView add()
 	{
 		ModelAndView mv = new ModelAndView("categorylist");

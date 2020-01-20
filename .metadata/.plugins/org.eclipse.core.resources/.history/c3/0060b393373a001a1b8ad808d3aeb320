@@ -1,0 +1,14 @@
+package com.niit.Ecommerce_Bd_ILT.Model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CARTMODEL")
+
+public class CartModel implements Serializable
+{
+	
+	
+
+}
